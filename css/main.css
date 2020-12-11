@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: arial, sans-serif; }
+
+h1, .subtitle {
+  color: #ffffff;
+  max-width: 600px; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "header header" "description description" "items items "; }
+
+header {
+  grid-area: header;
+  background: #1E212D url("../images/bg.jpg");
+  object-fit: cover;
+  height: 300px;
+  place-items: center; }
+
+/*# sourceMappingURL=main.css.map */
