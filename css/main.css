@@ -39,4 +39,32 @@ header {
   padding-top: 40px;
   text-align: center; }
 
+.info {
+  grid-column: 1/span 4;
+  background-color: #EAEAEA;
+  display: grid;
+  grid-template-areas: ". title title ." ". left right .";
+  grid-gap: 40px;
+  padding: 30px 0 60px 0; }
+
+.info-title {
+  grid-area: title;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #EAEAEA; }
+
+.info-box {
+  text-align: center;
+  width: 400px; }
+
+.left {
+  grid-area: left;
+  justify-self: right; }
+
+.right {
+  grid-area: right;
+  grid-column: 3/span 1;
+  justify-self: left; }
+
 /*# sourceMappingURL=main.css.map */
